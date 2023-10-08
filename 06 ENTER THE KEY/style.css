@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #212121;
+    color: white;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.tablecontainer {
+    margin: auto;
+    font-size: 30px;
+}
+
+.tablecontainer th,
+td {
+    border: 1px dotted rgb(255, 255, 255);
+    border-radius: 0px;
+    padding: 2px 5px;
+    text-align: center;
+    margin: 2px 4px;
+}
